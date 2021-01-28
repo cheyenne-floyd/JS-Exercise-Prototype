@@ -120,10 +120,10 @@ Car.prototype.drive = function(distance){
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. Is the function called by new ?
+    2. Explicit binding. Is the function called by call() , apply() , or bind() ?
+    3. Implicit binding/ most common, called as a method, look to the left of the dot to know what this refers to
+    4. Window binding/default unless in strict mode which will return undefined . Otherwise, return the global object, ie: window .
   */
   
   
